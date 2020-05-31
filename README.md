@@ -6,39 +6,24 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 
-This is an amazing image slider for the Android .
+This is an Android App for how to avoid Covid19 infection .
  
-You can easily load images with your custom layout, and there are many kinds of amazing animations you can choose.
+You can easily know how you can avoid Covid19, and how to make you'r family safe enough with some advices.
 
-```groovy
-     implementation 'com.github.smarteist:autoimageslider:1.3.7'
-```
-If you are using appcompat libraries use this one, but please migrate to androidx as soon as you can.
-```groovy
-     implementation 'com.github.smarteist:autoimageslider:1.3.7-appcompat'
-```
 
-### New Feautures
-* Minor sliderView API improvements.
-* Ability to disable infinite mode.
-* bug in issue #130 fixed.
+### Feautures
+* Minor number of recvired people and daily report of infections numbers.
+* How to make ever family member deal with Covid19.
+* Advices for every family members.
+* How to use mask and glooves in the right way.
+* How to use disinfectants with no harm.
 
-### New Changes
-* Auto cycle Bugs fixed.
-* Sync state bugs fixed.
-* Circular handle completely replaced with infinite wrapper adapter.
-because of that the following interface has been replaced with new one.
-```CircularSliderHandle.CurrentPageListener```
-changed to => `SliderView.OnSliderPageListener`.
-* The slider permanently scrolls infinitely, so the following methods have also been deleted.
-`sliderView.setCircularHandlerEnabled(boolean enable)`
-& its attribute in xml side:
-`app:sliderCircularHandlerEnabled="boolean"`
+
 ## Demo
-![](https://github.com/smarteist/android-image-slider/blob/master/gif/0.gif)
-![](https://github.com/smarteist/android-image-slider/blob/master/gif/8.gif)
-![](https://github.com/smarteist/android-image-slider/blob/master/gif/4.gif)
-![](https://github.com/smarteist/android-image-slider/blob/master/gif/7.gif)
+![](https://github.com/ahmediabdulazeem/staysafe/blob/master/screenshots/Screenshot_20200413-153834.png)
+![](https://github.com/ahmediabdulazeem/staysafe/blob/master/screenshots/Screenshot_20200413-153843.png)
+![](https://github.com/ahmediabdulazeem/staysafe/blob/master/screenshots/Screenshot_20200413-153853.png)
+![](https://github.com/ahmediabdulazeem/staysafe/blob/master/screenshots/Screenshot_20200413-153923.png)
 
 ## Integration guide
 
