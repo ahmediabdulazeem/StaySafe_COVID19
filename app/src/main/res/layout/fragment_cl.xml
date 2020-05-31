@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.GloovsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/mainPrimary"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="21dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#00FFFFFF">
+
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shape"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="5dp"
+                        android:text="1"
+                        android:textColor="@color/boldTextAppColor"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/gloovestv3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_horizontal|center_vertical"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center|clip_vertical|center_vertical"
+                        android:text="الكلور من الخطر المعقمات ركز"
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="@dimen/text_size_in_fragment"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center"
+                        android:text="من ضمن اخطر المعقمات المستخدمه في الفتره الحاليه هي الكلور , فالكلور بطبيعته سام للجلد و الجهاز التنفسي مصادر كتير اكدت الكلام السابق منهم موقع ويكيبديا و موقع لايف ساينس "
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="21dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#00FFFFFF">
+
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shape"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="5dp"
+                        android:text="2"
+                        android:textColor="@color/boldTextAppColor"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/masktv3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_horizontal|center_vertical"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center|clip_vertical|center_vertical"
+                        android:text="الكلور والكحول مع الخل أخطر وصفات التطهير "
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center"
+                        android:text="(bamail)  حسب موقع  "
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center"
+                        android:text=" 1- خلط الكحول مع الكلور"
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="@dimen/text_size_in_fragment"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center"
+                        android:text=" -  عند خلط الكحول مع الكلور ينتج عنه غاز سام الغاز السام الناتج يودي الي الاختناق و الاغماء و من الممكن ان يودي الي الوفاة و يودي الي تدمير الجهاز العصبي و الكبد و الكلتين و الرئه."
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center"
+                        android:text=" 2- الخل والكلور"
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="@dimen/text_size_in_fragment"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center"
+                        android:text=" - خلط الكحول و الخل من اخطر الوصفات المستخدمه في الوقت الحالي ينتج عنها غاز سام الكلورامين والكلور السام ضار جدا للانف و العينين."
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="21dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#00FFFFFF">
+
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shape"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="5dp"
+                        android:text="3"
+                        android:textColor="@color/boldTextAppColor"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/masktv3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_horizontal|center_vertical"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center|clip_vertical|center_vertical"
+                        android:text="تطهير الاسطح بستخدام الكلور"
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="@dimen/text_size_in_fragment"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center"
+                        android:text="-  يستخدم الكلور في تطهير الاسطح فقط اذا لزم الامر و يحذر استخدمه كمطهر لليدين او الجسم فهو سام."
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="@dimen/text_size_in_fragment"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center"
+                        android:text="-  حسب موقع ويكيبيديا فان معدل الكلور الأمن المستخدم في عمليه التطهير هي ربع كوب(250 ملل) من الكلور (الموجود بمحلات البقاله) علي 5 لتر من الماء مع استخدام بخاخه للرش ."
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center"
+                        android:text="-  اذا كنت مضطر الي تطهير الارضيه او بعض الاسطح بستخدام الكلور المخفف لزم المكان يكون جيد التهويه و خالي من الاطفال او كبار السن او اي من اصحاب امراض الجهاز التنفسي و من المنصوح بيه عندم التواجد في المكان الذي تم تطهيره و تركه مع التهويه الجيده  ."
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="21dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

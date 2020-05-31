@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/health"
+        android:icon="@drawable/saveheart"
+        android:title="عائلتك" />
+
+    <item
+        android:id="@+id/takecare"
+        android:icon="@drawable/illearth"
+        android:title="خد بالك" />
+
+    <item
+        android:id="@+id/doctor"
+        android:icon="@drawable/doctor"
+        android:title="الطب" />
+
+    <item
+        android:id="@+id/maskcard"
+        android:icon="@drawable/mask"
+        android:title="احذر" />
+
+</menu>

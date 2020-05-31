@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.WhoFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/mainPrimary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="21dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#00FFFFFF">
+
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shape"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="5dp"
+                        android:text="1"
+                        android:textColor="@color/boldTextAppColor"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/masktv3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_horizontal|center_vertical"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center|clip_vertical|center_vertical"
+                        android:text="اغسل ايدك كويس جدا بأنتظام"
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center"
+                        android:text=" - ليه: لان غسل اليد بالماء و الصابون بشكل مستمر او تطهرهما بمطهر كحولي من شأنه القضاء علي الفيروس و الحمايه منه "
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="21dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#00FFFFFF">
+
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shape"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="5dp"
+                        android:text="2"
+                        android:textColor="@color/boldTextAppColor"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/masktv3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_horizontal|center_vertical"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center|clip_vertical|center_vertical"
+                        android:text="أحرص ديما علي النظافه التنفسيه"
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center"
+                        android:text=" - يعني أيه : يعني لما تيجي تعطس او تكح (تسعل ) لزم تغطي فمك او انفك بشكل جيد اما عن طريق منديل ورقي او عن طريق ثني المرفق(يعني ان تضع منطقه نصف الذراع علي فمك و انفك) و قم بتطهر ملابسك جيدا بالغسيل او بمطهر كحولي و يدك  بالماء و الصابون في حاله عدم وجود كحول "
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center"
+                        android:text="ليه!"
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center"
+                        android:text="تغطية الفم والأنف عند الكح او العطس تمنع انتشار الجراثيم والفيروسات. أما لو غطيت فمك وأنفك بيدك أثناء العطس و (الكح) السعال فقد تنتقل الجراثيم إلى كل ما تلمسه من أشياء وأشخاص."
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="21dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="340dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#00FFFFFF">
+
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shape"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="5dp"
+                        android:text="3"
+                        android:textColor="@color/boldTextAppColor"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/masktv3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_horizontal|center_vertical"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center|clip_vertical|center_vertical"
+                        android:text="تجنب الاقتراب كثيرا من الناس"
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center"
+                        android:text=" - احتفظ بمسافة لا تقل عن متر واحد (3 خطوات تقريبا) بينك وبين أي شخص بيكح (يسعل) أو بيعطس "
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center"
+                        android:text="ليه!"
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center"
+                        android:text=" - لما بيكح (ييسعل) الشخص أو بيعطس، بيخرج من أنفه أو فمه قُطرات سائلة صغيرة قد تحتوي على الفيروس. فإذا كنت قريب جدا منه يمكن أن تتنفس هذه القُطرات، بما في ذلك الفيروس المسبب لمرض (كوفيد-19 ) كورونا إذا كان الشخص مصاباً به. "
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="21dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="340dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#00FFFFFF">
+
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shape"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="5dp"
+                        android:text="4"
+                        android:textColor="@color/boldTextAppColor"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/masktv3"
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_horizontal|center_vertical"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center|clip_vertical|center_vertical"
+                        android:text="تجنب لمس عينك وأنفك وفمك"
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center"
+                        android:text="ليه!"
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center"
+                        android:text=" - لما  ايدك تلمس الأسطح المختلفه (سطح مكتب - اوكرت باب - فلوس(نقود)-باب سياره الخ) يمكنها أن تلتقط الفيروسات. وإذا تلوثت اليدان من الممكن جدا انهم ينقلو الفيروس إلى العنين أو الأنف أو الفم. و ممكن للفيروس أن يدخل الجسم  ويصيبك بالمرض. "
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center"
+                        android:text=" - لو انت عندك حمى وكحه (سعال) وصعوبة في التنفس، اذهب للدكتور فوراً، ممكن تكون مصاب بعدوى الجهاز التنفسي أو حالة مرضية  أخرى. واتصل قبل الذهاب وأخبره لو انت سافرت أو خالطت (كنت قاعد مع) أي شخص سافر مؤخراً. "
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="21dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="340dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#00FFFFFF">
+
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shape"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="5dp"
+                        android:text="5"
+                        android:textColor="@color/boldTextAppColor"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/masktv3"
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_horizontal|center_vertical"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center|clip_vertical|center_vertical"
+                        android:text="لو انت كنت موجود في الفتره الاخيرة خلال ال 14 يوم الاخيره التي ينتشرب بها فيروس كورونا لزم تتبع التالي"
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center"
+                        android:text="لازم تعمل كل سبق"
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center"
+                        android:text=" -  لو حسيت باي تعب حتي لو اعراض صداع خفيفه و حمي منحفضه درجه الحراره (37.3 درجه مئويه او اكتر )ورشح خفيف في الانف اعزل نفسك عن باقي المنزل تماما لحد ما تخف تماما من الاعراض السابقه و لو الامر تطلب انك تستعين بشخص او اضطرت للخروج لزم تلبس كمامه و جوانتي و تتبع كل الارشادات الموجوده بالاعلي التزمك بكل التعليمات السابقه هيساعد علي عدم انتشار العدوه و توفير الرعايه اللازمه لك او لاي مصاب و التخلص من فيروس كورونا. "
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="21dp" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</FrameLayout>

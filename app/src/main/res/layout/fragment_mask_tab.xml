@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.MaskTab"
+    android:orientation="horizontal">
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/masktablayout"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="@android:color/white"
+        android:scrollbarDefaultDelayBeforeFade="0"
+        app:tabIndicatorColor="@color/boldTextAppColor"
+        app:tabSelectedTextColor="@color/boldTextAppColor"
+        app:tabTextAppearance="@style/TextAppearance.AppCompat.Large"
+        app:tabTextColor="@color/mainPrimary">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/masktab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/mainPrimary"
+            android:scrollbarDefaultDelayBeforeFade="0"
+            android:text="الكمامه" />
+
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/gloovstab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/mainPrimary"
+            android:scrollbarDefaultDelayBeforeFade="0"
+            android:text="الجوانتي " />
+
+
+    </com.google.android.material.tabs.TabLayout>
+</LinearLayout>

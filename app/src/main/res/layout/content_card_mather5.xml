@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/shape"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="5dp"
+                android:text="6"
+                android:textColor="@color/boldTextAppColor"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/gloovestv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal|center_vertical"
+                android:fontFamily="@font/shahdrontregular"
+                android:gravity="center|clip_vertical|center_vertical"
+                android:text="ازي تعقمي و تطهري "
+                android:textColor="@color/boldTextAppColor"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/shahdrontregular"
+                android:gravity="center"
+                android:text="التعقيم الشخصي بيبقي بس عن طريق مطهر كحولي يحتوي علي كحول مخفف بالمعياير المتبعه فقط يستخدم في تعقيم اليدين و المتعلقات الشخصيه اما الاسطح و الارضيه تكون عن طريق الكلور المبيض (موجود في البقاله او السوبر ماركت) و يتم تخفيفه 250 ملل من الكلور (المبيض) علي 5 لتر ماء و تضعيه في رشاش او بخاخ و احرصي علي ان يكون المكان تهويته جيده و خدي بالك الاطفال تتجنب كل الوسائل السابقه , عقمي اوضه اوضه(غرفه) بمعني عقمي اوضه و خليهم في اوضه تانيه لفتره من الوقت مع تهويه جيده بمجرد وصول  زوجك الي البيت عقمي ملابس زوجك و متعلقاته كويس جدا بمطهر كحولي  "
+                android:textColor="@color/boldTextAppColor"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.staysafefinal">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/familywithfram"
+        android:label="Stay Safe"
+        android:roundIcon="@drawable/familywithfram"
+        android:supportsRtl="true"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6198897372919858~1888476480"/>
+
+
+
+        <activity android:name="com.app.staysafefinal.fatherActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.app.staysafefinal.who"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.app.staysafefinal.Mask"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.app.staysafefinal.DangArea"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.app.staysafefinal.splashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.app.staysafefinal.ProfilePage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.staysafefinal.SignupPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.staysafefinal.CreateAccount"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.staysafefinal.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.staysafefinal.MainActivity"
+            android:screenOrientation="portrait" />
+
+
+
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+</manifest>

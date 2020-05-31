@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.GloovsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/mainPrimary"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="21dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#00FFFFFF">
+
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shape"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="5dp"
+                        android:text="1"
+                        android:textColor="@color/boldTextAppColor"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/gloovestv3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_horizontal|center_vertical"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center|clip_vertical|center_vertical"
+                        android:text="متى يجب استعمال الجوانتي"
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="@dimen/text_size_in_fragment"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center"
+                        android:text=" - لو انت مضطر للخروج و استعمال ايدك بشكل اساسي في التعاملات اليوميه او إذا كنت تسهر على رعاية شخص تُشتبه إصابته بعدوى فيروس كورونا المستجد"
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp" />
+
+                    <TextView
+                        android:id="@+id/gloovestv5"
+                        android:layout_width="@dimen/text_size_in_fragment"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center"
+                        android:text=" -  لو انت بتداول الاموال بشكل مستمر ,الاموال (الفلوس) من الممكن جدا ان تكون حامله للفيرس فيجب عليك ارتداء الجوانتي ."
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp" />
+
+                    <TextView
+                        android:id="@+id/gloovestv6"
+                        android:layout_width="@dimen/text_size_in_fragment"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center"
+                        android:text=" - لا يكون الجوانتي فعال إلا إذا اقترن بالمدوامة على تنظيف يدك إما بتطهرهما بمطهر كحولي أو بغسلهما بالماء والصابون."
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp" />
+
+                    <TextView
+                        android:id="@+id/gloovestv7"
+                        android:layout_width="@dimen/text_size_in_fragment"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center"
+                        android:text=" - لو انت تضع الجوانتي، فيجب أن تتعلم الطريقة الصحيحة لارتدائها والتخلص منها."
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="21dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#00FFFFFF">
+
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shape"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="5dp"
+                        android:text="2"
+                        android:textColor="@color/boldTextAppColor"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/masktv3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_horizontal|center_vertical"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center|clip_vertical|center_vertical"
+                        android:text="ازي تلبس الجوانتي "
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="@dimen/text_size_in_fragment"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center"
+                        android:text=" - طهر ايدك كويس جدا بالكحول لو الكحول مش موجود اغسلها كويس جدا بالصابون قبل لبس الجوانتي."
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="@dimen/text_size_in_fragment"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center"
+                        android:text=" -  اتاكد ان الجوانتي سليم تماما مفهوش اي فجوات تسمح بدخول اي شي يمكن ان يحمل الفيرس او يلوث ايدك."
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="@dimen/text_size_in_fragment"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center"
+                        android:text=" -لا تضع الجوانتي نهائيا علي انفك او فمك الجوانتي ما هو الا وسيله تمنع وصول اي نوع من الفيروسات او التلوث الي يدك فقط  ."
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="@dimen/text_size_in_fragment"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center"
+                        android:text=" - لا تعيد استعمال الجوانتي يستعمل لمره واحد فقط."
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="@dimen/text_size_in_fragment"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/shahdrontregular"
+                        android:gravity="center"
+                        android:text=" - خد بالك عند خلع الجوانتي لا تقم بلمسه  باي شكل من الاشكال و تخلص منه علي الفور و طهر ايدك بالكحول كويس جدا."
+                        android:textColor="@color/boldTextAppColor"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="21dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

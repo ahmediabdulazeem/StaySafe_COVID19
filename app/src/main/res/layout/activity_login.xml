@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainPrimary"
+    tools:context=".LoginActivity">
+
+  <ImageView
+      android:id="@+id/imageView6"
+      android:layout_width="wrap_content"
+      android:layout_height="482dp"
+      android:paddingTop="20dp"
+      app:srcCompat="@drawable/earth" />
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+      <Space
+          android:layout_width="match_parent"
+          android:layout_height="108dp" />
+
+      <TextView
+          android:id="@+id/logintv"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/shahdrontregular"
+          android:gravity="center"
+          android:text="تسجيل دخول"
+          android:textColor="@android:color/white"
+          android:textSize="50dp" />
+
+      <Space
+          android:layout_width="match_parent"
+          android:layout_height="12dp" />
+
+      <EditText
+          android:id="@+id/emailetLG"
+          android:layout_width="300dp"
+          android:layout_height="50dp"
+          android:layout_gravity="center"
+          android:background="@drawable/shape"
+          android:ems="10"
+          android:fontFamily="@font/shahdrontregular"
+          android:gravity="center"
+          android:hint="البريد الخاص بك"
+          android:inputType="textEmailAddress"
+          android:textColor="@color/boldTextAppColor"
+          android:textColorHint="@color/hintAppColor"
+          android:textSize="20dp" />
+
+      <Space
+          android:layout_width="match_parent"
+          android:layout_height="24dp" />
+
+      <EditText
+          android:id="@+id/passwordetLG"
+          android:layout_width="300dp"
+          android:layout_height="50dp"
+          android:layout_gravity="center"
+          android:background="@drawable/shape"
+          android:ems="10"
+          android:fontFamily="@font/shahdrontregular"
+          android:gravity="center"
+          android:hint="كلمه المرور"
+          android:inputType="textPassword"
+          android:textColor="@color/boldTextAppColor"
+          android:textColorHint="@color/hintAppColor"
+          android:textSize="20dp" />
+
+      <Space
+          android:layout_width="match_parent"
+          android:layout_height="20dp" />
+
+      <FrameLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/loginbt"
+            android:layout_width="156dp"
+            android:layout_height="50dp"
+            android:background="@drawable/shape"
+            android:fontFamily="@font/shahdrontregular"
+            android:text="تسجيل دخول"
+            android:textColor="@color/boldTextAppColor" />
+
+        <ProgressBar
+            android:id="@+id/progressBarLogin"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+      </FrameLayout>
+
+      <Space
+          android:layout_width="match_parent"
+          android:layout_height="14dp" />
+
+      <TextView
+          android:id="@+id/createaccounttv"
+          android:layout_width="match_parent"
+          android:layout_height="30dp"
+          android:layout_gravity="center|center_horizontal|center_vertical"
+          android:fontFamily="@font/shahdrontregular"
+          android:gravity="center|center_horizontal|center_vertical"
+          android:text="انشاء حساب جديد"
+          android:textColor="@android:color/white"
+          android:textSize="21dp" />
+
+      <Space
+          android:layout_width="match_parent"
+          android:layout_height="15dp" />
+
+      <TextView
+          android:id="@+id/skiptv"
+          android:layout_width="match_parent"
+          android:layout_height="30dp"
+          android:layout_gravity="center|center_horizontal|center_vertical"
+          android:fontFamily="@font/shahdrontregular"
+          android:gravity="center|center_horizontal|center_vertical"
+          android:text="تخطي"
+          android:textColor="@android:color/white"
+          android:textSize="21dp" />
+
+    </LinearLayout>
+  </ScrollView>
+
+</FrameLayout>

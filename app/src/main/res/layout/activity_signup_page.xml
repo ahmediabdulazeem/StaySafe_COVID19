@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupPage">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/progressSignup"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="147dp"
+            android:layout_height="112dp"
+            android:layout_gravity="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="205dp"
+                android:layout_marginTop="20dp"
+                android:paddingTop="10dp"
+                app:srcCompat="@drawable/familywithfram" />
+
+            <TextView
+                android:id="@+id/stayhometv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/shahdrontregular"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:text="خليك في البيت"
+                android:textColor="@color/mainPrimary"
+                android:textSize="35dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
+
+            <TextView
+                android:id="@+id/signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:fontFamily="@font/shahdrontregular"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:text="تسجيل الدخول بستخدام"
+                android:textColor="@color/mainPrimary"
+                android:textSize="40dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="14dp" />
+
+            <Button
+                android:id="@+id/gmailbt"
+                android:layout_width="300dp"
+                android:layout_height="85dp"
+                android:layout_gravity="center"
+                android:background="@drawable/shape2"
+                android:fontFamily="@font/shahdrontregular"
+                android:hapticFeedbackEnabled="false"
+                android:text="تسجيل الدخول بواسطه جوجل"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="41dp" />
+
+            <Button
+                android:id="@+id/mailbt"
+                android:layout_width="300dp"
+                android:layout_height="85dp"
+                android:layout_gravity="center"
+                android:background="@drawable/shape2"
+                android:fontFamily="@font/shahdrontregular"
+                android:text="تسجيل الدخول بواسطه ايميلك"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

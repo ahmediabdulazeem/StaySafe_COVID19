@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.FamilyFragment">
+
+
+    <com.github.ksoichiro.android.observablescrollview.ObservableScrollView
+        android:id="@+id/fragment_motherscroll2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+    </com.github.ksoichiro.android.observablescrollview.ObservableScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mainPrimary"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="194dp"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/fathercard"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/shape"
+                        app:cardBackgroundColor="@color/mainPrimary">
+
+                        <ImageView
+                            android:id="@+id/fatherimg"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/cardshape"
+                            android:hapticFeedbackEnabled="true"
+                            app:srcCompat="@drawable/father" />
+
+                        <TextView
+                            android:id="@+id/fathertv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center"
+                            android:fontFamily="@font/shahdrontregular"
+                            android:text="لو انت أب "
+                            android:textColor="@color/boldTextAppColor"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </androidx.cardview.widget.CardView>
+
+                    <Space
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/mothercard"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:cardBackgroundColor="@color/mainPrimary">
+
+                        <ImageView
+                            android:id="@+id/motherimg"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/cardshape"
+                            android:hapticFeedbackEnabled="false"
+                            app:srcCompat="@drawable/mother" />
+
+                        <TextView
+                            android:id="@+id/mothertv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center"
+                            android:fontFamily="@font/shahdrontregular"
+                            android:text="لو انت ام "
+                            android:textColor="@color/boldTextAppColor"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="194dp"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/youthcard"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/shape"
+                        app:cardBackgroundColor="@color/mainPrimary">
+
+                        <ImageView
+                            android:id="@+id/youthimg"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/cardshape"
+                            android:hapticFeedbackEnabled="true"
+                            app:srcCompat="@drawable/youth" />
+
+                        <TextView
+                            android:id="@+id/youthtv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center"
+                            android:fontFamily="@font/shahdrontregular"
+                            android:text="الشباب"
+                            android:textColor="@color/boldTextAppColor"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </androidx.cardview.widget.CardView>
+
+                    <Space
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/sheyouthcard"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:cardBackgroundColor="@color/mainPrimary">
+
+                        <ImageView
+                            android:id="@+id/sheyouthimg"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/cardshape"
+                            android:hapticFeedbackEnabled="false"
+                            app:srcCompat="@drawable/sheyouth" />
+
+                        <TextView
+                            android:id="@+id/sheyouthtv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center"
+                            android:fontFamily="@font/shahdrontregular"
+                            android:text="البنات"
+                            android:textColor="@color/boldTextAppColor"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <LinearLayout
+                    android:layout_width="159dp"
+                    android:layout_height="194dp"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/gfathercard"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/shape"
+                        app:cardBackgroundColor="@color/mainPrimary">
+
+                        <ImageView
+                            android:id="@+id/gfatherimg"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:background="@drawable/cardshape"
+                            android:hapticFeedbackEnabled="true"
+                            app:srcCompat="@drawable/gmfather" />
+
+                        <TextView
+                            android:id="@+id/gfathertv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center"
+                            android:fontFamily="@font/shahdrontregular"
+                            android:gravity="center"
+                            android:text="الجد و الجده"
+                            android:textColor="@color/boldTextAppColor"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </androidx.cardview.widget.CardView>
+
+                    <Space
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>
