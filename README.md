@@ -20,10 +20,10 @@ You can easily know how you can avoid Covid19, and how to make you'r family safe
 
 
 ## Demo
-![](https://github.com/ahmediabdulazeem/staysafe/blob/master/screenshots/Screenshot_20200413-153834.png=125*125)
-![](https://github.com/ahmediabdulazeem/staysafe/blob/master/screenshots/Screenshot_20200413-153843.png=125*125)
-![](https://github.com/ahmediabdulazeem/staysafe/blob/master/screenshots/Screenshot_20200413-153853.png=125*125)
-![](https://github.com/ahmediabdulazeem/staysafe/blob/master/screenshots/Screenshot_20200413-153923.png=125*125)
+![](https://github.com/ahmediabdulazeem/staysafe/blob/master/screenshots/Screenshot_20200413-153834.png=250*250)
+![](https://github.com/ahmediabdulazeem/staysafe/blob/master/screenshots/Screenshot_20200413-153843.png=250*250)
+![](https://github.com/ahmediabdulazeem/staysafe/blob/master/screenshots/Screenshot_20200413-153853.png=250*250)
+![](https://github.com/ahmediabdulazeem/staysafe/blob/master/screenshots/Screenshot_20200413-153923.png=250*250)
 
 ## Integration guide
 
