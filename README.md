@@ -1,7 +1,7 @@
 # staysafe
 
 [ ![Download](https://api.bintray.com/packages/smarteistbintray/android/androidautoimageslider/images/download.svg) ](https://bintray.com/smarteistbintray/android/androidautoimageslider/_latestVersion)
-[![Apk](https://github.com/ahmediabdulazeem/staysafe/blob/master/app/staysafe.apk)
+[![Apk](https://github.com/ahmediabdulazeem/staysafe/blob/master/app/staysafe.apk)]
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
