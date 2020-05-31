@@ -27,7 +27,7 @@ You can easily know how you can avoid Covid19, and how to make you'r family safe
 
 ## Some code guide
 
-First put the slider view in your layout xml :
+Some of layout xml :
 
 ```xml
         <?xml version="1.0" encoding="utf-8"?>
