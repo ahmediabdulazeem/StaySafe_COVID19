@@ -4,6 +4,7 @@
 
 
 
+
 This is an Android App for how to avoid Covid19 infection .
  
 You can easily know how you can avoid Covid19, and how to make you'r family safe enough with some advices.
@@ -23,189 +24,238 @@ You can easily know how you can avoid Covid19, and how to make you'r family safe
 ![](https://github.com/ahmediabdulazeem/staysafe/blob/master/screenshots/Screenshot_20200413-153853.png)
 ![](https://github.com/ahmediabdulazeem/staysafe/blob/master/screenshots/Screenshot_20200413-153923.png)
 
-## Integration guide
+
+## Some code guide
 
 First put the slider view in your layout xml :
 
 ```xml
-        <com.smarteist.autoimageslider.SliderView
-                    android:id="@+id/imageSlider"
-                    android:layout_width="match_parent"
-                    android:layout_height="300dp"
-                    app:sliderAnimationDuration="600"
-                    app:sliderAutoCycleDirection="back_and_forth"
-                    app:sliderAutoCycleEnabled="true"
-                    app:sliderIndicatorAnimationDuration="600"
-                    app:sliderIndicatorGravity="center_horizontal|bottom"
-                    app:sliderIndicatorMargin="15dp"
-                    app:sliderIndicatorOrientation="horizontal"
-                    app:sliderIndicatorPadding="3dp"
-                    app:sliderIndicatorRadius="2dp"
-                    app:sliderIndicatorSelectedColor="#5A5A5A"
-                    app:sliderIndicatorUnselectedColor="#FFF"
-                    app:sliderScrollTimeInSec="1"
-                    app:sliderStartAutoCycle="true" />
+        <?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainPrimary"
+    tools:context=".LoginActivity">
+
+  <ImageView
+      android:id="@+id/imageView6"
+      android:layout_width="wrap_content"
+      android:layout_height="482dp"
+      android:paddingTop="20dp"
+      app:srcCompat="@drawable/earth" />
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+      <Space
+          android:layout_width="match_parent"
+          android:layout_height="108dp" />
+
+      <TextView
+          android:id="@+id/logintv"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/shahdrontregular"
+          android:gravity="center"
+          android:text="تسجيل دخول"
+          android:textColor="@android:color/white"
+          android:textSize="50dp" />
+
+      <Space
+          android:layout_width="match_parent"
+          android:layout_height="12dp" />
+
+      <EditText
+          android:id="@+id/emailetLG"
+          android:layout_width="300dp"
+          android:layout_height="50dp"
+          android:layout_gravity="center"
+          android:background="@drawable/shape"
+          android:ems="10"
+          android:fontFamily="@font/shahdrontregular"
+          android:gravity="center"
+          android:hint="البريد الخاص بك"
+          android:inputType="textEmailAddress"
+          android:textColor="@color/boldTextAppColor"
+          android:textColorHint="@color/hintAppColor"
+          android:textSize="20dp" />
+
+      <Space
+          android:layout_width="match_parent"
+          android:layout_height="24dp" />
+
+      <EditText
+          android:id="@+id/passwordetLG"
+          android:layout_width="300dp"
+          android:layout_height="50dp"
+          android:layout_gravity="center"
+          android:background="@drawable/shape"
+          android:ems="10"
+          android:fontFamily="@font/shahdrontregular"
+          android:gravity="center"
+          android:hint="كلمه المرور"
+          android:inputType="textPassword"
+          android:textColor="@color/boldTextAppColor"
+          android:textColorHint="@color/hintAppColor"
+          android:textSize="20dp" />
+
+      <Space
+          android:layout_width="match_parent"
+          android:layout_height="20dp" />
+
+      <FrameLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/loginbt"
+            android:layout_width="156dp"
+            android:layout_height="50dp"
+            android:background="@drawable/shape"
+            android:fontFamily="@font/shahdrontregular"
+            android:text="تسجيل دخول"
+            android:textColor="@color/boldTextAppColor" />
+
+        <ProgressBar
+            android:id="@+id/progressBarLogin"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+      </FrameLayout>
+
+      <Space
+          android:layout_width="match_parent"
+          android:layout_height="14dp" />
+
+      <TextView
+          android:id="@+id/createaccounttv"
+          android:layout_width="match_parent"
+          android:layout_height="30dp"
+          android:layout_gravity="center|center_horizontal|center_vertical"
+          android:fontFamily="@font/shahdrontregular"
+          android:gravity="center|center_horizontal|center_vertical"
+          android:text="انشاء حساب جديد"
+          android:textColor="@android:color/white"
+          android:textSize="21dp" />
+
+      <Space
+          android:layout_width="match_parent"
+          android:layout_height="15dp" />
+
+      <TextView
+          android:id="@+id/skiptv"
+          android:layout_width="match_parent"
+          android:layout_height="30dp"
+          android:layout_gravity="center|center_horizontal|center_vertical"
+          android:fontFamily="@font/shahdrontregular"
+          android:gravity="center|center_horizontal|center_vertical"
+          android:text="تخطي"
+          android:textColor="@android:color/white"
+          android:textSize="21dp" />
+
+    </LinearLayout>
+  </ScrollView>
+
+</FrameLayout>
 ```
 
-Or you can put it inside the cardView to look more beautiful :
 
 ```xml
-       <androidx.cardview.widget.CardView
-               app:cardCornerRadius="6dp"
-               android:layout_margin="16dp"
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content">
+       <?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainPrimary"
+    tools:context=".splashScreen">
 
-               <com.smarteist.autoimageslider.SliderView
-                           android:id="@+id/imageSlider"
-                           android:layout_width="match_parent"
-                           android:layout_height="300dp"
-                           app:sliderAnimationDuration="600"
-                           app:sliderAutoCycleDirection="back_and_forth"
-                           app:sliderAutoCycleEnabled="true"
-                           app:sliderIndicatorAnimationDuration="600"
-                           app:sliderIndicatorGravity="center_horizontal|bottom"
-                           app:sliderIndicatorMargin="15dp"
-                           app:sliderIndicatorOrientation="horizontal"
-                           app:sliderIndicatorPadding="3dp"
-                           app:sliderIndicatorRadius="2dp"
-                           app:sliderIndicatorSelectedColor="#5A5A5A"
-                           app:sliderIndicatorUnselectedColor="#FFF"
-                           app:sliderScrollTimeInSec="1"
-                           app:sliderStartAutoCycle="true" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="38dp">
 
-       </androidx.cardview.widget.CardView>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="@color/mainPrimary">
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="169dp"
+            android:background="@drawable/tabcover"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/bkbt2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/shape"
+                    android:tint="@color/mainPrimary"
+                    app:srcCompat="@drawable/abc_vector_test" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="113dp"
+                    android:layout_height="99dp"
+                    android:layout_gravity="center_horizontal|top"
+                    app:srcCompat="@drawable/mask" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/allyouneed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/shahdrontregular"
+            android:gravity="center"
+            android:text="أدوات الوقايه"
+            android:textColor="@color/boldTextAppColor"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <fragment
+            android:id="@+id/fragment2"
+            android:name="com.app.staysafefinal.fragment.MaskTab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/maskviewpagertab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+</FrameLayout>
 ```
 
-## Next step
 
-The new version requires an slider adapter plus your custom layout for slider items, Although its very similar to RecyclerView & RecyclerAdapter, and it's familiar and easy to implement this adapter... here is an example for adapter implementation :
-
-```java
-public class SliderAdapterExample extends
-        SliderViewAdapter<SliderAdapterExample.SliderAdapterVH> {
-
-    private Context context;
-    private List<SliderItem> mSliderItems = new ArrayList<>();
-
-    public SliderAdapterExample(Context context) {
-        this.context = context;
-    }
-
-    public void renewItems(List<SliderItem> sliderItems) {
-        this.mSliderItems = sliderItems;
-        notifyDataSetChanged();
-    }
-
-    public void deleteItem(int position) {
-        this.mSliderItems.remove(position);
-        notifyDataSetChanged();
-    }
-
-    public void addItem(SliderItem sliderItem) {
-        this.mSliderItems.add(sliderItem);
-        notifyDataSetChanged();
-    }
-
-    @Override
-    public SliderAdapterVH onCreateViewHolder(ViewGroup parent) {
-        View inflate = LayoutInflater.from(parent.getContext()).inflate(R.layout.image_slider_layout_item, null);
-        return new SliderAdapterVH(inflate);
-    }
-
-    @Override
-    public void onBindViewHolder(SliderAdapterVH viewHolder, final int position) {
-
-        SliderItem sliderItem = mSliderItems.get(position);
-
-        viewHolder.textViewDescription.setText(sliderItem.getDescription());
-        viewHolder.textViewDescription.setTextSize(16);
-        viewHolder.textViewDescription.setTextColor(Color.WHITE);
-        Glide.with(viewHolder.itemView)
-                .load(sliderItem.getImageUrl())
-                .fitCenter()
-                .into(viewHolder.imageViewBackground);
-
-        viewHolder.itemView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(context, "This is item in position " + position, Toast.LENGTH_SHORT).show();
-            }
-        });
-    }
-
-    @Override
-    public int getCount() {
-        //slider view count could be dynamic size
-        return mSliderItems.size();
-    }
-
-    class SliderAdapterVH extends SliderViewAdapter.ViewHolder {
-
-        View itemView;
-        ImageView imageViewBackground;
-        ImageView imageGifContainer;
-        TextView textViewDescription;
-
-        public SliderAdapterVH(View itemView) {
-            super(itemView);
-            imageViewBackground = itemView.findViewById(R.id.iv_auto_image_slider);
-            imageGifContainer = itemView.findViewById(R.id.iv_gif_container);
-            textViewDescription = itemView.findViewById(R.id.tv_auto_image_slider);
-            this.itemView = itemView;
-        }
-    }
-
-}
-```
-## Set the adapter to the Sliderview
-
-After the instantiating of the sliderView (inside the activity or fragment with findViewById|BindView blah blah...), set the adapter to the slider.
-
-```java
-    sliderView.setSliderAdapter(new SliderAdapterExample(context));
-```
-
-You can call this method if you want to start flipping automatically and you can also set up the slider animation :
-
-```java
-    sliderView.startAutoCycle();
-    sliderView.setIndicatorAnimation(IndicatorAnimations.WORM);
-    sliderView.setSliderTransformAnimation(SliderAnimations.SIMPLETRANSFORMATION);
-```
-
-## Elaborate more?
-
-Here is a more realistic and more complete example :
-
-```java
-
-        @Override
-        protected void onCreate(Bundle savedInstanceState) {
-            super.onCreate(savedInstanceState);
-            setContentView(R.layout.activity_main);
-
-            SliderView sliderView = findViewById(R.id.imageSlider);
-
-            SliderAdapterExample adapter = new SliderAdapterExample(this);
-
-            sliderView.setSliderAdapter(adapter);
-
-            sliderView.setIndicatorAnimation(IndicatorAnimations.WORM); //set indicator animation by using SliderLayout.IndicatorAnimations. :WORM or THIN_WORM or COLOR or DROP or FILL or NONE or SCALE or SCALE_DOWN or SLIDE and SWAP!!
-            sliderView.setSliderTransformAnimation(SliderAnimations.SIMPLETRANSFORMATION);
-            sliderView.setAutoCycleDirection(SliderView.AUTO_CYCLE_DIRECTION_BACK_AND_FORTH);
-            sliderView.setIndicatorSelectedColor(Color.WHITE);
-            sliderView.setIndicatorUnselectedColor(Color.GRAY);
-            sliderView.setScrollTimeInSec(4); //set scroll delay in seconds :
-            sliderView.startAutoCycle();
-
-        }
-```
-
-## Contribute
-
-Suggestions and pull requests are always welcome.
-Special Thanks [Roman Danylyk] (https://github.com/romandanylyk) for nice indicator!
 
 ## Licence
 
