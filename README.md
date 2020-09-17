@@ -2,9 +2,6 @@
 
 [![Apk](https://img.shields.io/badge/download-apk-yellowgreen.svg)](https://github.com/ahmediabdulazeem/staysafe/blob/master/app/staysafe.apk)
 
-
-
-
 This is an Android App for how to avoid Covid19 infection .
  
 You can easily know how you can avoid Covid19, and how to make you'r family safe enough with some advices.
