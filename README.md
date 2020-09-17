@@ -19,6 +19,7 @@ You can easily know how you can avoid Covid19, and how to make you'r family safe
 
 
 ## Demo
+<img src="https://github.com/ahmediabdulazeem/staysafe/blob/master/screenshots/rsz_screenshot_20200413-153834.png" width="200" height="400" />
 ![](https://github.com/ahmediabdulazeem/staysafe/blob/master/screenshots/rsz_screenshot_20200413-153834.png) | width=100)
 ![](https://github.com/ahmediabdulazeem/staysafe/blob/master/screenshots/rsz_screenshot_20200413-153843.png) | width=100)
 ![](https://github.com/ahmediabdulazeem/staysafe/blob/master/screenshots/rsz_screenshot_20200413-154026.png) | width=100)
