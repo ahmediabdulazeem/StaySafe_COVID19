@@ -45,7 +45,7 @@ Some of layout xml :
       app:srcCompat="@drawable/earth" />
 
   <ScrollView
-      android:layout_width="match_parent"
+      android:layout_width="match_parent" 
       android:layout_height="match_parent"
       android:layout_gravity="center">
 
