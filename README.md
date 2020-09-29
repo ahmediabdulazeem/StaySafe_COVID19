@@ -16,25 +16,12 @@ You can easily know how you can avoid Covid19, and how to make you'r family safe
 
 
 ## Demo
-<img src="https://github.com/ahmediabdulazeem/staysafe/blob/master/screenshots/rsz_screenshot_20200413-153834.png" width="200" height="300" />     <img 
+<img src="https://github.com/ahmediabdulazeem/staysafe/blob/master/screenshots/rsz_screenshot_20200413-153834.png" width="200" height="300" />  
 <img src="https://github.com/ahmediabdulazeem/staySafe/blob/master/screenshots/Screenshot_20200413-154121.png" width="200" height="300" />
-
-
 <img src="https://github.com/ahmediabdulazeem/staySafe/blob/master/screenshots/Screenshot_20200413-154051.png" width="200" height="300" />
 <img src="https://github.com/ahmediabdulazeem/staySafe/blob/master/screenshots/Screenshot_20200413-154121.png" width="200" height="300" />
 <img src="https://github.com/ahmediabdulazeem/staySafe/blob/master/screenshots/Screenshot_20200413-154036.png" width="200" height="300" />
 <img src="https://github.com/ahmediabdulazeem/staySafe/blob/master/screenshots/Screenshot_20200413-154121.png" width="200" height="300" />
-
-
-
-
-
-
-
-
-
-
-
 
 ## Some code guide
 
